@@ -28,7 +28,19 @@ symfony server:start
 * For demo payment api, please run the below url
 
 ```
-https://127.0.0.1:8001/api/payment?paymentData={"type": "A","receiverName":"Test user","amount":"45","currency":"usd","accountNumber":"141 454 741 12"}
+https://127.0.0.1:8000/api/payment?paymentData={"type": "A","receiverName":"Test user","amount":"45","currency":"usd","accountNumber":"141 454 741 12"}
+```
+
+* How to select provide *
+
+```
+We can select A & B provider by changing `type` in `paymentData`.
+```
+
+* Unit test *
+
+```
+php bin/phpunit
 ```
 
 Note :: _If you run the url without parameter like this `https://127.0.0.1:8001/api/payment` -> this will take payment data from `payment-data.json` file, which is in root directory._
