@@ -7,7 +7,7 @@ A Symfony website for Payment Api...
 * git clone
 
 ```
-git clone ---.
+git clone https://github.com/niravpateljoin/Payment-test-api.git
 ```
 
 * Initial command to run
